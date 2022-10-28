@@ -1,0 +1,51 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <h1>Generate a <br><span>random password</span></h1>
+        <p>Never use an insecure password again.</p>
+        <div>
+            <fieldset>
+                <legend>Choose your password</legend>
+                <div>
+                    <input type="checkbox" id="symbols" value="yes" checked>
+                    <label for="coding">Include symbols</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="numbers" value="yes" checked>
+                    <label for="music">Include numbers</label>
+                </div>
+            </fieldset>
+        </div>
+        <div class="password-length">
+            <p>Length</p>
+            <input class="length-generate" type = "range" min = "5" max = "30" id="password-range" oninput= "num.value = this.value"> </input>
+            <output id="num">15</output>
+    
+        </div>
+
+            <button class="btn-generate" onclick=generatePassword()>Generate Password</button>
+
+        <div class="line">
+        </div>
+        <div class="container">
+            <div class="password-display" id="password-display-1">
+            </div>
+               <button class="copy-password" onclick="copyPassword1()">Copy password</button>
+            <div class="feedback-msg" id="feedback-msg-top"></div>
+
+            <div class="password-display" id="password-display-2"></div>
+            <button class="copy-password" onclick="copyPassword2()">Copy password</button>
+            <div class="feedback-msg" id="feedback-msg-bottom"></div>
+        </div>
+            <div type="text" id="input"></div>
+    
+        <script src="index.js"></script>
+        
+    </body>
+
+
+</html>
+
