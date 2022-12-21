@@ -1,7 +1,7 @@
 # Random Password Generator
 One click to generate passwords up to 30 characters in length with choices of include symbols and numbers
 
-[Site Live](https://tiny-mochi-3e1c9c.netlify.app/)
+[Site Live](https://exquisite-rabanadas-1003ce.netlify.app/)
 
 ## Module
 A training project built to consolidate key concepts from:
