@@ -1,13 +1,20 @@
-# cR9B46Sg
+# Random Password Generator
+One click to generate passwords up to 30 characters in length with choices of include symbols and numbers
 
-## About Scrimba
+[Site Live](https://tiny-mochi-3e1c9c.netlify.app/)
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Module
+A training project built to consolidate key concepts from:
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+**Module 7 - Next Level JavaScript** [Scrimba Frontend Career Path Course](https://scrimba.com/learn/frontend) 
 
-Happy Coding!
+## Lesson
+- Practice using Math.random()
+- Build site according to Figma design spec 
+- conditionally & randomlly select characters based on user input
+
+## Demo
+ ![](demo.gif)
+
+
+
